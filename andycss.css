@@ -1,0 +1,40 @@
+h1, h2, h3 {
+  /*color: rgb(16, 196, 122);*/
+  color: yellow;
+}
+
+
+
+.col-md-6{
+  display: flex;
+}
+
+.col-lg-12 {
+	display: flex;
+}
+
+
+
+
+p {
+  font-size: 15px;
+  color: gray;
+}
+
+footer {
+  bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+#image-css {
+  max-width: 300px;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+

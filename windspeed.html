@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US"
+    <head>
+        <meta charset="UTF-8"
+        
+        <link rel="stylsheet" type="text/css" href="andycss.css">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script> -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>
+
+
+    </head>
+
+    <body>
+	
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Weather: Attitude of the Latitude</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right" >
+				
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="maxtemps.html">Max Temperature</a></li>
+						<li><a href="humidity.html">Humidity</a></li>
+						<li><a href="cloudiness.html">Cloudiness</a></li>
+						<li><a href="windspeed.html">Wind Speed</a></li>
+					</ul>
+				</li>
+				<li><a href="comparisons.html">Comparison</a></li>
+				<li><a href="cities_table.html">Data</a></li>
+			</ul>
+			</div>
+		</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="jumbotron">
+    
+      <h2>Summary: Latitude vs. Wind Speed:</h2>
+    
+      <section>
+        <img src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed" style="float:left;width:225px;height:225px;border:1px solid black;">
+      <p>   
+        No correlation was observed between latitude and wind speeds.
+        </p>
+      
+      </section>
+      </div>
+    </div>
+  
+    <div class="col-md-6">
+            <div class="jumbotron">
+              
+                <h2>Visualizations</h2>
+              
+
+                <section>
+                        <p>
+                                <a href="maxtemps.html">
+                                <img src="Resources/assets/images/Fig1.png" alt="City Latitude vs. Max. Temperature" style="width:214PX;height:max-height;border:1px solid black;" id="image-css">
+                                </a>
+                                <a href="humidity.html">
+                                <img src="Resources/assets/images/Fig2.png" alt="City Latitude vs. HUmidity" style="width:214PX;height:max-height;border:1px solid black;" id="image-css">
+                                </a>
+                                <a href="cloudiness.html">
+                                <img src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Max. Cloudiness" style="width:214PX;height:max-height;border:1px solid black;" id="image-css">
+                                </a>
+                                <a href="windspeed.html">
+                                <img src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed" style="width:214PX;height:max-height;border:1px solid black;" id="image-css">
+                                </a>
+                                </p>
+                  </section>
+            </div>
+        </div>
+  </div>
+</div>		
+		
+
+<footer class="container-fluid">
+    <p>Potato Pirates!</p>
+</footer>
+
+    </body>
+</html>
